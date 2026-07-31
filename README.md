@@ -284,9 +284,6 @@ d:\repos\java\teste3\
 ├── santander-mock/           # Mock Santander API (port 8081)
 │   ├── src/
 │   └── pom.xml
-├── archived_docs/            # Documentation scripts
-│   ├── run-local.ps1
-│   └── E2E-TEST.ps1
 ├── Santander-Boleto-API.postman_collection.json
 ├── test-integration.ps1      # Full integration test
 ├── test-patch-integration.ps1 # PATCH endpoint test
