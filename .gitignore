@@ -1,0 +1,83 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+**/target/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.superpowers/
+
+# Build outputs
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.log
+
+# Test outputs
+test_output.log
+**/surefire-reports/
+**/failsafe-reports/
+*.tc
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Compiler and related
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# OS specific
+.DS_Store
+Thumbs.db
+.directory
+
+# Local environment
+.env
+.env.local
+*.properties.local
+local.properties
+
+# Spring Boot
+application-local.properties
+application-dev.properties
+
+# Misc
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+.factorypath
+
+# Claude Code
+.claude/
+
+# Documentation and scripts archive
+docs/
+archived_docs/
+.env*
