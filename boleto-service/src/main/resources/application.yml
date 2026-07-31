@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: boleto-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/boleto_service
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always
+
+santander:
+  api:
+    base-url: ${SANTANDER_API_BASE_URL:http://localhost:8081}
+    workspace-id: ${SANTANDER_WORKSPACE_ID:workspace-mock}
+    environment: ${SANTANDER_ENVIRONMENT:TESTE}
+    client-id: ${SANTANDER_CLIENT_ID:test-client}
+    client-secret: ${SANTANDER_CLIENT_SECRET:test-secret}
+  auth:
+    token-ttl-seconds: 3600
+    refresh-margin-seconds: 60
